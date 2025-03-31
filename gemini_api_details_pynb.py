@@ -83,7 +83,7 @@ response = client.models.generate_content(
     )
 )
 
-# Bu modeller, 4 tane görsel üretiyor. Biz sadece, ilk görselin çıktısını almak istediğimiz için candidates[0] kullandık.
+# These models produce 4 images. We only used candidates[0] to ensure that the first image emerges.
 for part in response.candidates[0].content.parts:
   if part.text is not None:
     print(part.text)
