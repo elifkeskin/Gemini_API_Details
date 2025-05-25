@@ -1,60 +1,79 @@
-# Colab Application
+# Colab Application: Gemini API Details Exploration
 
-This repository contains a Google Colab notebook designed for examining Gemini API details. The notebook provides a step-by-step workflow for text to image or 
-image editing with Gemini.
+This repository hosts a Google Colab notebook designed for exploring the Google Gemini API. The notebook provides a step-by-step guide for various tasks, including text-to-image generation and image editing using Gemini.
 
-## Getting Started
+## 🚀 Getting Started
 
-To use this notebook, follow these steps:
+To start using this notebook, follow these instructions:
 
-1. Open the Colab notebook by clicking the link below:
-   [Google Colab Notebook](https://colab.research.google.com/drive/1wpjQAiy4f2o3bnhn2_076Kk0iUWvvAf2?authuser=1#scrollTo=pdt14r-z_YD8)
-2. Ensure you have the necessary dependencies installed by running the first cell.
-3. Follow the instructions in the notebook to complete the analysis or task.
+1. **Open the Colab Notebook:**
+   - Click the following link to open the notebook in Google Colab: [Google Colab Notebook](https://github.com/elifkeskin/Gemini_API_Details/blob/main/gemini_api_details_pynb.py)
 
-## Features
+2. **Install Dependencies:**
+   - Ensure all necessary Python libraries are installed. You can either:
+     - Run `pip install -r requirements.txt` in your local environment, or
+     - Execute the installation commands directly in the Colab notebook (usually in the first cell).
 
-- Curl Request
-- Google SDK Examples
-- Text to Image Example
-- Image Editing With Gemini
-- Watermark Cleaning Test
+## ✨ Features
 
-## Requirements
+- **Curl Request Examples:** Demonstrates how to interact with the Gemini API using curl commands.
+- **Google SDK Examples:** Provides code snippets using the official Google SDK for Gemini.
+- **Text-to-Image Generation:** Guides you through generating images from text prompts using the Gemini API.
+- **Image Editing with Gemini:** Shows how to edit existing images using text instructions with the Gemini API.
+- **Watermark Cleaning Test:** Includes examples for testing the API's ability to remove watermarks from images.
 
-This notebook requires the following Python libraries:
+## ⚙️ Requirements
+
+This notebook requires the following Python libraries. You can install them using pip:
 
 ```bash
 pip install -r requirements.txt
 ```
+Alternatively, if you are using Google Colab, you can install the dependencies directly in the notebook using the following command:
 
-Alternatively, if using Colab, install dependencies directly in the notebook:
-
-```python
+```bash
 !pip install <package-name>
 ```
+Replace <package-name> with the specific library you need to install (e.g., google-generativeai, pillow).
 
-## Usage
+💻 Usage
+**1.Run All Cells in Order:**
+Execute the cells in the notebook sequentially to ensure proper setup and execution.
 
-1. Run all cells in order.
-2. Modify the parameters as needed to customize the output.
-3. Save or download results as necessary.
+**2.Modify Parameters:**
+Adjust the parameters in the code as needed to customize the output according to your requirements.
 
-## Contributing
+**3.Save or Download Results:**
+Save the generated images or download the results as necessary for your use case.
 
-Contributions are welcome! If you'd like to contribute:
+🤝 Contributing
+Contributions are welcome! If you'd like to contribute to this project:
 
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a Pull Request.
+**1.Fork the Repository:**
+Fork the repository to your GitHub account.
 
-## License
+**2.Create a Feature Branch:**
+```bash
+git checkout -b feature-branch
+```
 
-This project is licensed under the [MIT License](LICENSE).
+**3.Commit Your Changes:**
+```bash
+git commit -m 'Add new feature'
+```
 
-## Contact
+**4.Push to the Branch:**
+```bash
+git push origin feature-branch
+```
 
-For questions or issues, feel free to reach out via ekeskin12@gmail.com.
+**5.Open a Pull Request:**
+Submit a pull request with a clear description of your changes.
+
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+📧 Contact
+For questions, issues, or suggestions, feel free to reach out via ekeskin12@gmail.com.
+
 
