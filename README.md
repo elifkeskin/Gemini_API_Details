@@ -37,6 +37,7 @@ Alternatively, if you are using Google Colab, you can install the dependencies d
 Replace <package-name> with the specific library you need to install (e.g., google-generativeai, pillow).
 
 💻 Usage
+
 **1.Run All Cells in Order:**
 Execute the cells in the notebook sequentially to ensure proper setup and execution.
 
